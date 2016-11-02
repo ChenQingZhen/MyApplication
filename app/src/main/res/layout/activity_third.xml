@@ -8,9 +8,16 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.administrator.myapplication.ThirdActivity">
-        <TextView
+        <TextView android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="第三个Activity"
+            />
+        <Button android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv_title"
             />
 </RelativeLayout>
