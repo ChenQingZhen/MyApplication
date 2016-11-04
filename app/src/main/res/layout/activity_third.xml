@@ -20,4 +20,11 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/tv_title"
             />
+        <TextView android:id="@+id/tv_iss53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iss53"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_submit"
+            />
 </RelativeLayout>
